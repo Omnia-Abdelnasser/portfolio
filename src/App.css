@@ -1,0 +1,421 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    
+  }
+  
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.home h2{
+    color: rgb(255, 213, 0) ;
+    margin: 1% 0;
+}
+.home h5{
+    margin-top: 2%;
+}
+
+.home img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+    transition: transform 0.5s ease-in-out;
+    animation: float 3s ease-in-out infinite;
+    -webkit-animation: float 3s ease-in-out infinite;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+
+}
+
+.home img:hover {
+    transform: scale(1.1) rotate(5deg);
+    -webkit-transform: scale(1.1) rotate(5deg);
+    -moz-transform: scale(1.1) rotate(5deg);
+    -ms-transform: scale(1.1) rotate(5deg);
+    -o-transform: scale(1.1) rotate(5deg);
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); -webkit-transform:; -moz-transform:; -ms-transform:; -o-transform:; }
+    50% { transform: translateY(-10px); -webkit-transform: translateY(-10px); -moz-transform: translateY(-10px); -ms-transform: translateY(-10px); -o-transform: translateY(-10px); }
+    100% { transform: translateY(0px); -webkit-transform: translateY(0px); -moz-transform: translateY(0px); -ms-transform: translateY(0px); -o-transform: translateY(0px); }
+}
+
+/* .home .btn {
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 1%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.home .btn:hover {
+    background-color: white;
+    color: rgb(255, 213, 0);
+} */
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    display: inline-block;
+    -webkit-transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: rgb(255, 213, 0);
+    transform: scale(1.2);
+    animation: bounce 0.5s;
+    -webkit-animation: bounce 0.5s;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0);}
+    50% { transform: translateY(-5px);}
+    100% { transform:translateY(0);  }
+}
+
+.skills {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.skills .title h3 {
+    color: rgb(255, 213, 0);
+}
+
+.content {
+    margin-top: 6%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.content .card {
+    width: 30%;
+    background-color: #000;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.content .card h5 {
+    color: white;
+    font-size: 17px;
+}
+
+.content .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.content .card img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(255, 213, 0, 0.8);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.content .card:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+/*end skills*/
+/*start about*/
+.about{
+    margin-top: 6%;
+    width: 100%;
+    margin-bottom: 8%;
+}
+.about h3{
+    color: rgb(255, 213, 0);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+
+}
+.about img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 5px solid transparent;
+    animation: borderAnimation 5s infinite linear;
+   
+    -webkit-animation: borderAnimation 5s infinite linear;
+}
+  
+  @keyframes borderAnimation {
+    0% { border-color: red; }
+    25% { border-color: blue; }
+    50% { border-color: green; }
+    75% { border-color: yellow; }
+    100% { border-color: red; }
+  }
+.about .para{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact{
+    margin-top: 6%;
+    width: 100%;
+
+}
+.contact .title{
+    text-align: center;
+    align-items: center;
+}
+.contact .title h5{
+color: white;
+font-weight: bold;
+}
+.contact .title h2{
+    color: rgb(255, 213, 0);
+
+}
+
+.contact .social{
+    width: 65%;
+    background-color: rgb(34, 38, 71);
+    margin: 20px 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+    -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contact .social:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(255, 213, 0, 0.8);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+.contact .social i{
+    color: rgb(255, 213, 0);
+font-size: 25px;
+
+}
+
+
+.contact .social h3,h4{
+    color: white;
+    font-size: 18px;
+}
+.contact .social a{
+    margin: 20px;
+    text-decoration: none;
+}
+.contact form{
+    margin-bottom:30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.contact input{
+    background-color:  rgb(34, 38, 71);
+    color: white;
+    border:none ;
+    margin: 15px;
+    width:65%;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+.contact input::placeholder{
+font-size: 15px;
+padding: 10px;
+}
+.contact .submit{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    background-color:rgb(34, 38, 71);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 1%;
+    font-weight: bold;
+    cursor: pointer;
+    width: 30%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.contact .submit:hover{
+    color: rgb(255, 213, 0) ;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.projects{
+    margin-top: 6%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+}
+.projects h3{
+    color: rgb(255, 213, 0) ;
+    font-size: 30px;
+    margin-bottom: 10%;
+
+}
+.projects .card {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(83, 79, 61) ;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: #fff;
+    overflow: hidden;
+    -webkit-transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    cursor: pointer;
+}
+
+.projects .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgb(83, 79, 61) ;
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+}
+
+.projects .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.projects .card-body {
+    padding: 15px;
+}
+
+.projects .card-title {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(100, 100, 5);
+}
+
+.projects .card-text {
+    font-size: 14px;
+    font-weight: bold;
+    color:  black;
+    margin-bottom: 10px;
+}
+
+.projects .card .btn {
+    width: 100%;
+    background-color: #000;
+    color: rgb(255, 213, 0) ;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+}
+
+.projects .card .btn:hover {
+    background-color: rgb(255, 213, 0);
+    color: #000; 
+}
