@@ -1,5 +1,5 @@
 
-import ab from './image/WhatsApp Image 2025-02-05 at 18.28.42_85739580.jpg'
+import ab from './image/pexels-photo-7567443.jpeg'
 const About=()=>{
 
 return(
@@ -16,6 +16,8 @@ return(
                 <p>I am 20 years old and from Qena Governorate.</p>
                 <p>I study at the Faculty of Computers and Information,<br/> South Valley University.</p>
                 <p>I am in my second year.</p>
+                <p>I’m currently learning HTML, CSS, JavaScript, Bootstrap, Git & GitHub, React JS.
+                </p>
                 </div>
             </div>
         </div>
