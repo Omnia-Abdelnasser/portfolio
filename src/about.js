@@ -1,5 +1,5 @@
 
-import ab from './image/pexels-photo-7567443.jpeg'
+import ab from './image/WhatsApp Image 2025-05-03 at 17.48.31_5db07d9b.jpg'
 const About=()=>{
 
 return(

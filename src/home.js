@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from './image/pexels-photo-7567443.jpeg'
+import img1 from './image/WhatsApp Image 2025-05-03 at 17.48.29_46f30c33.jpg'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
